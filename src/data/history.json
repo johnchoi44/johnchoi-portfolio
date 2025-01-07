@@ -1,0 +1,78 @@
+[
+    {
+      "role": "Machine Learning Engineer",
+      "organisation": "Nittany Ai Advance",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "experiences": ["Computer Vision", "EfficientNetB3", "TensorFlow", "PyTorch", "KMeans", "PCA", "CNN", "Amazon EC2"],
+      "imageSrc": "history/NittanyAI.png"
+    },
+    {
+      "role": "Undergraduate Research Assistant",
+      "organisation": "Penn State Listening Lab",
+      "startDate": "Jan 2024",
+      "endDate": "Aug 2024",
+      "experiences": ["Data Collection", "Machine Learning"],
+      "imageSrc": "history/PennState.png"
+    },
+    {
+      "role": "Technology Tutor",
+      "organisation": "Penn State IT Learning & Development",
+      "startDate": "Aug 2023",
+      "endDate": "Present",
+      "experiences": [
+        "Technical Support", "Interpersonal Skills"
+      ],
+      "imageSrc": "history/PennState.png"
+    },
+    {
+      "role": "Data Science Intern",
+      "organisation": "Advanced Nano Products Co., Ltd (ANP)",
+      "startDate": "May 2023",
+      "endDate": "Aug 2023",
+      "experiences": [
+        "Data Management", "ESG"
+      ],
+      "imageSrc": "history/ANP.svg"
+    },
+    {
+      "role": "Development Team Intern",
+      "organisation": "Truwin Co Ltd",
+      "startDate": "Aug 2022",
+      "endDate": "May 2022",
+      "experiences": [
+        "Research", "Vehicle Motor", "Vehicle Battery"
+      ],
+      "imageSrc": "history/Truwin.png"
+    },
+    {
+      "role": "AI Engineering Intern",
+      "organisation": "Cybermed Inc.",
+      "startDate": "Feb 2022",
+      "endDate": "May 2022",
+      "experiences": [
+        "Chatbot Development", "Sales Automation"
+      ],
+      "imageSrc": "history/Cybermed.png"
+    },
+    {
+      "role": "Military Police Sergeant and Squad Leader",
+      "organisation": "Republic of Korea Air Force - 17th Fighter Wing",
+      "startDate": "May 2020",
+      "endDate": "Feb 2022",
+      "experiences": [
+        "Leadership", "Team Management", "Interpersonal Skills"
+      ],
+      "imageSrc": "history/ROKAF.png"
+    },
+    {
+      "role": "Intelligent Infra, Technology Research Center Intern",
+      "organisation": "Korea Institute of Science and Technology Information (KISTI)",
+      "startDate": "Sep 2019",
+      "endDate": "Dec 2019",
+      "experiences": [
+        "PyTorch", "Caffe", "Lightweight Deep Learning Model"
+      ],
+      "imageSrc": "history/KISTI.png"
+    }
+  ]

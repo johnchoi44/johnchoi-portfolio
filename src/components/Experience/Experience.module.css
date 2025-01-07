@@ -1,0 +1,180 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+
+.skills {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.skillImageContainer {
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.skillImageContainer img {
+    width: 75px;
+}
+
+.skill p {
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+
+.history {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.historyItem img {
+    width: 50px;
+}
+
+.historyItemDetails {
+    font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.historyItemDetails h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.668)
+}
+
+.historyItemDetails p {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.275);
+}
+
+.historyItemDetails ul {
+    margin-top: 6px;
+    list-style-position: inside;
+    font-size: 25px;
+    list-style-type: disc;
+}
+
+.experienceButton {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.experienceButton:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border-color: var(--color-primary);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+}
+
+.experienceButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-accent-light); /* Focus ring for accessibility */
+}
+
+.experienceButton:active {
+    transform: scale(0.98); /* Slight "pressed" effect */
+}
+
+.seeMoreButton {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: var(--color-primary-dark);
+    }
+
+    &:focus {
+        outline: 2px solid var(--color-accent);
+        outline-offset: 2px;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history {
+        width: 100%;
+        gap: 9px;
+    }
+}

@@ -1,0 +1,71 @@
+[
+    {
+      "title": "Vibe.Ai",
+      "imageSrc": "projects/vibeai.svg",
+      "description": "Platform for users to generate personalized voice outputs and music covers using advanced AI technologies.",
+      "skills": ["Voice Cloning", "Music Cover Generation", "React.js", "Node.js"],
+      "demo": "https://youtu.be/jwbqdBqSGfI?si=I5s_7gKNqidYZbqS",
+      "source": "https://github.com/johnchoi44/VibeAI",
+      "youtubeLink": "https://www.youtube.com/embed/jwbqdBqSGfI?si=MdO1qErDuZ2NsiFQ",
+      "screenshots": ["projects/vibe1.png", "projects/vibe2.png", "projects/vibe3.png", "projects/vibe4.png", "projects/vibe5.png", "projects/vibe6.png", "projects/vibe7.png"]
+    },
+
+    
+    {
+      "title": "Groop",
+      "imageSrc": "projects/groop.png",
+      "description": "Real-time messaging platform which match people based on their MBTI and interests.",
+      "skills": ["Google Cloud Vertex AI", "Firebase", "React.js", "Node.js"],
+      "demo": "https://youtu.be/R4BUHn4X1lk",
+      "source": "https://github.com/johnchoi44/GROOP",
+      "youtubeLink": "https://www.youtube.com/embed/R4BUHn4X1lk?si=hTGA7gXSWcRRI0zQ",
+      "screenshots": ["projects/groop1.png", "projects/groop2.png", "projects/groop3.png", "projects/groop4.png", "projects/groop5.png", "projects/groop6.png", "projects/groop7.png"]
+    },
+    {
+      "title": "Book Recommendation System",
+      "imageSrc": "projects/book_recommendation.png",
+      "description": "Developed genre-specific book recommendation system using Amazon book reviews.",
+      "skills": ["Apache Spark", "HPC", "ML"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/johnchoi44/BookRecommendationSystem",
+      "screenshots": ["projects/ds410.jpg"]
+    },
+    {
+      "title": "Crime Severity Analysis in NYC",
+      "imageSrc": "projects/340W.png",
+      "description": "Analyzing and predicting crime severity across NYC using ML.",
+      "skills": ["ML", "Data Analysis", "Data Integration", "Data Visualization"],
+      "demo": "https://docs.google.com/presentation/d/1qLM_tuAN2niDSqgJhcYBwWSNY6nHni1OYO7s0cTM84E/edit?usp=sharing",
+      "source": "https://github.com/johnchoi44/DS340W_Project",
+      "screenshots": ["projects/340W.png"]
+    },
+    {
+      "title": "Workplace Social Media Activity",
+      "imageSrc": "projects/ps.jpg",
+      "description": "Research project investigating the impact of social/technical changes on organizational behaviors.",
+      "skills": ["Data Scraping", "Sentiment Analysis", "Twitter API"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/johnchoi44/ProjectTwitter",
+      "screenshots": ["projects/twitter.jpg"]
+    },
+    {
+      "title": "Chatbot Development",
+      "imageSrc": "projects/chatbot.png",
+      "description": "Analyzed historical customer inquiries to model and develop a customer service chabot.",
+      "skills": ["SQL", "KakaoTalk API"],
+      "demo": "http://pf.kakao.com/_CXxmeb",
+      "source": "https://www.linkedin.com/in/choi-yongjun/details/projects/",
+      "screenshots": ["projects/chatbot1.png"]
+    },
+    {
+      "title": "MegaByte",
+      "imageSrc": "projects/datafest.png",
+      "description": "Analyzed real-world dataset provided by the AMA to design a platform to match a client to the appropriate attorney.",
+      "skills": ["R", "Tableau", "Data Visualization", "Data Analysis"],
+      "demo": "https://www.youtube.com/watch?v=SAb4ZrnstgU&t=96s",
+      "source": "https://datafest.psu.edu/previous/_2023/",
+      "youtubeLink": "https://www.youtube.com/embed/SAb4ZrnstgU?si=RqQnwDxgvA_JNIsO",
+      "screenshots": [""]
+    }
+  ]
+
