@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 import styles from "./Projects.module.css";
-import projects from "../../data/projects.json";
+// import projects from "../../data/projects.json";
 import ProjectCard from './ProjectCard';
 import PopUp from './PopUp';
+
+import { projects } from "../../constants";
 
 const Projects = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,8 +20,8 @@ const Projects = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
     };
 
-    const handleProjectClick = (project) => {
-        setSelectedProject(project);
+    const handleProjectClick = (projects) => {
+        setSelectedProject(projects);
     };
 
     const closePopup = () => {

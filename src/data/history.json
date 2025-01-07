@@ -5,7 +5,7 @@
       "startDate": "Aug 2024",
       "endDate": "Present",
       "experiences": ["Computer Vision", "EfficientNetB3", "TensorFlow", "PyTorch", "KMeans", "PCA", "CNN", "Amazon EC2"],
-      "imageSrc": "history/NittanyAI.png"
+      "imageSrc": "nittanyai"
     },
     {
       "role": "Undergraduate Research Assistant",
@@ -13,7 +13,7 @@
       "startDate": "Jan 2024",
       "endDate": "Aug 2024",
       "experiences": ["Data Collection", "Machine Learning"],
-      "imageSrc": "history/PennState.png"
+      "imageSrc": "pennstate"
     },
     {
       "role": "Technology Tutor",
@@ -23,7 +23,7 @@
       "experiences": [
         "Technical Support", "Interpersonal Skills"
       ],
-      "imageSrc": "history/PennState.png"
+      "imageSrc": "pennstate"
     },
     {
       "role": "Data Science Intern",
@@ -33,7 +33,7 @@
       "experiences": [
         "Data Management", "ESG"
       ],
-      "imageSrc": "history/ANP.svg"
+      "imageSrc": "anp"
     },
     {
       "role": "Development Team Intern",
@@ -43,7 +43,7 @@
       "experiences": [
         "Research", "Vehicle Motor", "Vehicle Battery"
       ],
-      "imageSrc": "history/Truwin.png"
+      "imageSrc": "truwin"
     },
     {
       "role": "AI Engineering Intern",
@@ -53,7 +53,7 @@
       "experiences": [
         "Chatbot Development", "Sales Automation"
       ],
-      "imageSrc": "history/Cybermed.png"
+      "imageSrc": "cybermed"
     },
     {
       "role": "Military Police Sergeant and Squad Leader",
@@ -63,7 +63,7 @@
       "experiences": [
         "Leadership", "Team Management", "Interpersonal Skills"
       ],
-      "imageSrc": "history/ROKAF.png"
+      "imageSrc": "rokaf"
     },
     {
       "role": "Intelligent Infra, Technology Research Center Intern",
@@ -73,6 +73,6 @@
       "experiences": [
         "PyTorch", "Caffe", "Lightweight Deep Learning Model"
       ],
-      "imageSrc": "history/KISTI.png"
+      "imageSrc": "kisti"
     }
   ]

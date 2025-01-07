@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './PopUp.module.css';
 
-import { getImageUrl } from '../../utils';
+// import { getImageUrl } from '../../utils';
 
 const PopUp = ({ project, onClose }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -40,7 +40,6 @@ const PopUp = ({ project, onClose }) => {
                         </button>
                     )}
                     <div className={styles.media}>
-                        {console.log(currentSlide)}
                         {mediaItems[currentSlide].type === 'video' ? (
                             <iframe
                                 className={styles.video}
@@ -53,7 +52,7 @@ const PopUp = ({ project, onClose }) => {
                             ></iframe>
                         ) : (
                             <img
-                                src={getImageUrl(screenshots[currentSlide])}
+                                src={screenshots[currentSlide]}
                                 alt={`Screenshot ${currentSlide + 1}`}
                                 className={styles.content}
                             />

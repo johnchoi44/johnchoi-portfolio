@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-import skills from "../../data/skills.json"
-import history from "../../data/history.json"
-import { getImageUrl } from '../../utils'
+// import skills from "../../data/skills.json";
+// import history from "../../data/history.json"
+// import { getImageUrl } from '../../utils'
 
-import styles from "./Experience.module.css"
+import { history } from "../../constants";
+
+import styles from "./Experience.module.css";
 
 const Experience = () => {
     const [showAll, setShowAll] = useState(false);
@@ -23,7 +25,7 @@ const Experience = () => {
                     {displayedHistory.map((historyItem, id) => {
                         return (
                             <li key={id} className={styles.historyItem}>
-                                <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation} Logo`} />
+                                <img src={historyItem.imageSrc} alt={`${historyItem.organisation} Logo`} />
                                 <div className={styles.historyItemDetails}>
                                     <h3>{`${historyItem.role}`}</h3>
                                     <h4>{`${historyItem.organisation}`}</h4>

@@ -4,6 +4,7 @@ import styles from "./About.module.css"
 import { getImageUrl } from "../../utils"
 
 const About = () => {
+    console.log(process.env.PUBLIC_URL)
   return (
     <section className={styles.container} id="about">
         <h2 className={styles.title}>About</h2>
