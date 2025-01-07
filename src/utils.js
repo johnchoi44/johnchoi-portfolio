@@ -1,3 +1,3 @@
 export const getImageUrl = (path) => {
-    return `./src/assets/${path}`;
+    return `${process.env.PUBLIC_URL}/src/assets/${path}`;
 }
