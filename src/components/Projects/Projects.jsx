@@ -30,7 +30,7 @@ const Projects = () => {
 
     return (
         <section className={styles.container} id="projects">
-            <h2 className={styles.title}>Projects</h2>
+            <h2 className={styles.title}>Project</h2>
             <BsArrowLeftCircleFill onClick={prevSlide} className={styles.arrowLeft} />
             <div className={styles.carousel}>
                 <div className={styles.projectContainer1} onClick={prevSlide}>

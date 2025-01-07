@@ -1,13 +1,11 @@
 import React from 'react'
 
 import styles from "./About.module.css"
-import { getImageUrl } from "../../utils"
 
 const About = () => {
-    console.log(process.env.PUBLIC_URL)
   return (
     <section className={styles.container} id="about">
-        <h2 className={styles.title}>About</h2>
+        <h2 className={styles.title}>About Me</h2>
         <div className={styles.content}>
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
