@@ -3,8 +3,6 @@ import React from 'react'
 import styles from "./About.module.css"
 import { getImageUrl } from "../../utils"
 
-import ReactReadMoreReadLess from "react-read-more-read-less"
-
 const About = () => {
   return (
     <section className={styles.container} id="about">
