@@ -67,7 +67,7 @@ const Hero = ({ onToggleAbout }) => {
           <a href={resume} target="_blank" className={styles.navButton}>Résumé</a>
           <a href="#about" onClick={onToggleAbout} className={styles.navButton}>About Me</a>
           <a href="#experience" className={styles.navButton}>Experience</a>
-          <a href="#projects" className={styles.navButton}>Projects</a>
+          <a href="#projects" className={styles.navButton}>Project</a>
         </div>
       </div>
     </section>
