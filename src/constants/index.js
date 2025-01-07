@@ -135,7 +135,7 @@ export const projects = [
         "demo": "https://youtu.be/jwbqdBqSGfI?si=I5s_7gKNqidYZbqS",
         "source": "https://github.com/johnchoi44/VibeAI",
         "youtubeLink": "https://www.youtube.com/embed/jwbqdBqSGfI?si=MdO1qErDuZ2NsiFQ",
-        "screenshots": ["", vibe1, vibe2, vibe3, vibe4, vibe5, vibe6, vibe7]
+        "screenshots": ["", vibe1, vibe2, vibe3, vibe4, vibe5, vibe6]
     },
     {
     "title": "Groop",
@@ -145,7 +145,7 @@ export const projects = [
     "demo": "https://youtu.be/R4BUHn4X1lk",
     "source": "https://github.com/johnchoi44/GROOP",
     "youtubeLink": "https://www.youtube.com/embed/R4BUHn4X1lk?si=hTGA7gXSWcRRI0zQ",
-    "screenshots": ["", groop1, groop2, groop3, groop4, groop5, groop6, groop7, groop8]
+    "screenshots": ["", groop1, groop2, groop3, groop4, groop5, groop6, groop7]
     },
     {
     "title": "Book Recommendation System",
