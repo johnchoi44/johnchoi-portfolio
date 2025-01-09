@@ -154,7 +154,7 @@ export const projects = [
     "skills": ["#Apache Spark", "#HPC", "#ML"],
     "demo": "https://www.example.com",
     "source": "https://github.com/johnchoi44/BookRecommendationSystem",
-    "screenshots": ["ds410"]
+    "screenshots": [ds410]
     },
     {
     "title": "Crime Severity Analysis in NYC",

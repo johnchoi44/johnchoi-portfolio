@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 import styles from "./Projects.module.css";
@@ -11,6 +11,9 @@ import { projects } from "../../constants";
 const Projects = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedProject, setSelectedProject] = useState(null);
+
+    const [hoverProject, setHoverProject] = useState(null);
+    const [cursorPosition, setCursorPosition] = useState({x: 0, y: 0});
 
     const nextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
@@ -27,6 +30,24 @@ const Projects = () => {
     const closePopup = () => {
         setSelectedProject(null);
     };
+
+    const handleMouseEnter = (project, e) => {
+        setHoverProject(project);
+        setCursorPosition({ x: e.clientX, y: e.clientY });
+    };
+
+    const handleMouseLeave = () => {
+        setHoverProject(null);
+    }
+
+    useEffect(() => {
+        if (hoverProject) {
+            const timer = setTimeout(() => {
+                setSelectedProject(hoverProject);
+            }, 3000);
+            return () => clearTimeout(timer);
+        }
+    }, [hoverProject]);
 
     return (
         <section className={styles.container} id="projects">
@@ -56,6 +77,15 @@ const Projects = () => {
                         }/>
                 </div>
             </div>
+            {/* {hoverProject && (
+                <div
+                    className={styles.progressCircle}
+                    style={{
+                        top: `${cursorPosition.y}px`,
+                        left: `${cursorPosition.x}px`,
+                    }}
+                ></div>
+            )} */}
             <BsArrowRightCircleFill onClick={nextSlide} className={styles.arrowRight} />
             <div className={styles.indicators}>
                 {projects.map((_, idx) => {
@@ -76,94 +106,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-
-// 3D
-// .banner {
-//     width: 100%;
-//     height: 100vh;
-//     text-align: center;
-//     overflow: hidden;
-//     position: relative;
-// }
-
-// .slider {
-//     position: absolute;
-//     width: 200px;
-//     height: 250px;
-//     top: 10%;
-//     left: calc(50% - 100px);
-//     transform-style: preserve-3d;
-//     transform: perspective(1000px);
-//     animation: autoRun 20s linear infinite;
-//     z-index: 2;
-// }
-
-// @keyframes autoRun {
-//     from {
-//         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-//     }
-//     to {
-//         transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-//     }
-// }
-
-// .item {
-//     position: absolute;
-//     inset: 0 0 0 0;
-//     transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-//         translateZ(550px);
-// }
-
-// .item img {
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-// }
-
-// .arrowLeft,
-// .arrowRight {
-//     position: absolute;
-//     top: 50%;
-//     transform: translateY(-50%);
-//     background: rgba(0, 0, 0, 0.5);
-//     color: white;
-//     border-radius: 50%;
-//     width: 40px;
-//     height: 40px;
-//     cursor: pointer;
-//     z-index: 20;
-// }
-
-// .arrowLeft {
-//     left: 10px;
-// }
-
-// .arrowRight {
-//     right: 10px;
-// }
-
-// .indicators {
-//     display: flex;
-//     justify-content: center;
-//     margin-top: 20px;
-// }
-
-// .indicator {
-//     width: 10px;
-//     height: 10px;
-//     margin: 0 5px;
-//     border-radius: 50%;
-//     background-color: rgba(255, 255, 255, 0.1);
-//     border: none;
-//     cursor: pointer;
-// }
-
-// .indicator.active {
-//     background-color: rgba(255, 255, 255, 1);
-// }
-
-// .arrowLeft:hover,
-// .arrowRight:hover {
-//     cursor: pointer;
-// }
